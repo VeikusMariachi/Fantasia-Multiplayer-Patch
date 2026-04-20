@@ -1,0 +1,75 @@
+[
+{
+		"name": "College",
+		"cost": 150,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Only available <if [Paper Maker] is constructed in all [non-[Puppeted]] cities>", 
+					//"Free Technology", 
+					"Cost increases by [25] per owned city"],
+		"requiredTech": "Philosophy"
+	},	
+	{
+		"name": "Bauxbatons Circle",
+		"cost": 200,
+		"science": 3,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Public School] is constructed in all [non-[Puppeted]] cities>", 
+					//"Free Technology", 
+					"Science gained from research agreements [+25]%",
+					"Cost increases by [25] per owned city"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Ironworks",
+		"cost": 150,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", 
+					"Cost increases by [25] per owned city", 
+					//"Free [Great Engineer] appears"
+],
+		"requiredTech": "Steel",
+		"civilopediaText": [
+			{"text": "A facility to purify and fashioning iron ore into iron or steel."}
+		]
+	},
+	{
+		"name": "Royal Inventor's Assembly",
+		"uniqueTo": "Dwargon",
+		"replaces": "Ironworks",
+		"cost": 150,
+		"production": 8,
+		"culture": 1,
+		"science": 3,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["Cost increases by [25] per owned city", 
+					"Provides [1] [Orichalcum Ingot]", 
+					"[+1 Science] from [Manufactory] tiles [in all cities]", 
+					//"Free [Great Engineer] appears"
+],
+		"requiredTech": "Steel",
+		"civilopediaText": [
+			{"text": "Magnificent workplace, the only place where Orichalcum Ingots were made."}
+		]
+	},
+	{
+		"name": "Archmage Tribunal",
+		"cost": 200,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["Only available <if [Academy of Magic] is constructed in all [non-[Puppeted]] cities>", 
+					"Provides [2] [Magician]", 
+					//"Free Social Policy", 
+					"Cost increases by [25] per owned city"],
+		"requiredTech": "Enlightenment"
+	},
+
+]
